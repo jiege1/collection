@@ -1,0 +1,10 @@
+{
+  "name": "react-ts-template api 文档",
+  "version": "1.0.0",
+  "description": "react-ts-template api 文档",
+  "title": "react-ts-template api 文档",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}
