@@ -9,11 +9,12 @@ const buildRoute = (list, parentPath = '') => {
       return buildRoute(item.children, item.path);
     }
     const props = {
+      key: `route_${item.key}`,
       path: parentPath + item.path,
       component: item.component,
       exact: true,
     };
-    return <Route key={`route_${item.key}`} {...props} />;
+    return <Route {...props} />;
   });
 };
 

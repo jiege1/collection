@@ -1,4 +1,4 @@
-import lazyComponent from '../../../components/lazyComponent';
+import lazyComponent from 'components/lazyComponent';
 
 const routeData = [
   {

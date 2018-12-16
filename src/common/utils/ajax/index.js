@@ -8,6 +8,8 @@ export default class Ajax {
 
   static query({params = {}, url, method = 'get'}) {
 
+    url = eval(`window.CFG.api.${url}`);
+
     if (method === 'get') {
       params = { params };
     }

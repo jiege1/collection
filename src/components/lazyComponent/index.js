@@ -31,7 +31,7 @@ export default function lazyComponent(path = '') {
       }
       return (
         <div>
-          出错了
+          加载中
         </div>
       );
 
